@@ -9,7 +9,7 @@
  * License: GPLv2
  * Text Domain: mersalparfums
  * Domain Path: /languages/
- * Version: 0.0.1
+ * Version: 0.0.2
  */
 
 namespace MersalBreakdanceElements;
@@ -21,7 +21,7 @@ add_action('breakdance_loaded', function () {
         getDirectoryPathRelativeToPluginFolder(__DIR__) . '/elements',
         'MersalBreakdanceElements',
         'element',
-        'Custom Elements',
+        'Mersal Elements',
         false
     );
 
@@ -29,7 +29,7 @@ add_action('breakdance_loaded', function () {
         getDirectoryPathRelativeToPluginFolder(__DIR__) . '/macros',
         'MersalBreakdanceElements',
         'macro',
-        'Custom Macros',
+        'Mersal Macros',
         false,
     );
 
@@ -37,7 +37,7 @@ add_action('breakdance_loaded', function () {
         getDirectoryPathRelativeToPluginFolder(__DIR__) . '/presets',
         'MersalBreakdanceElements',
         'preset',
-        'Custom Presets',
+        'Mersal Presets',
         false,
     );
 },
